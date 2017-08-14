@@ -1,0 +1,3 @@
+<!-- TITLE: Application Tokens -->
+
+Application tokens are what allow Bookmark services to communicate with other Bookmark services. Application tokens denote an instance of a Bookmark service. Once created, a token is permanently bound to whatever service it was created for. The most common use-case for application tokens is obtaining configuration values from Consul. Tokens should also be submitted to Watchdog so as to register themselves.
