@@ -1,3 +1,3 @@
 <!-- TITLE: Architecture -->
 
-![](http://i.imgur.com/RrgnRt4.png)
+![Overall Architecture](/uploads/development/overall-architecture.png "Overall Architecture")
