@@ -5,7 +5,7 @@ This guide is for the current Gatekeeper and will be deprecated as soon as Gatek
 - Python 3 (3.4 preferred)
 - NodeJS (6.9.4)
 - NPM
-- NGINX (or edit your hosts file) - [NGINX configuration for Gatekeeper](https://raw.githubusercontent.com/Bookmark-Novels/Resources/master/Configuration%20Files/bookmark-nginx-local.conf)
+- NGINX - [NGINX configuration for Gatekeeper](https://raw.githubusercontent.com/Bookmark-Novels/Resources/master/Configuration%20Files/bookmark-nginx-local.conf)
 ```
 # Install Dependencies
 pip install -r requiremnts.txt
