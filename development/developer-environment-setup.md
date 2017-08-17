@@ -8,7 +8,7 @@ This guide will reference the [developer portal](http://i.imgur.com/AzyAQpX.png)
 # 0. Git
 Bookmark uses Git for all version control. You can install it with `sudo pacman -S git`.
 # 1. Vagrant
-Because Bookmark developers have a wide variety of system configurations, Vagrant is used to standardize development environments.
+Because Bookmark developers have a wide variety of system configurations, Vagrant is used to standardize development environments. Vagrant will run a VM on your computer and sync your project files with the VM so all you need to do is SSH into the VM to run projects.
 ```
 sudo pacman -s virtualbox
 sudo pacman -S virtualbox-host-modules-arch
