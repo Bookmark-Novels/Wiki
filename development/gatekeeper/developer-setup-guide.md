@@ -5,4 +5,6 @@ All you need to do is type `vagrant plugin install vagrant-hostmanager && vagran
 
 You can compile frontend resources by opening two more terminal windows. In the first window run `grunt watch` and in the second one run `grunt`. **You should run these two commands in this order otherwise frontend resources will not be compiled at first.**
 
+**DO NOT RUN THE FRONTEND COMPILE COMMANDS INSIDE YOUR VAGRANT BOX UNLESS YOU LIKE WAITING!**
+
 Gatekeepre may be accessed at https://auth.dev.bookmarknovels.com.
