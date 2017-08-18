@@ -9,6 +9,7 @@ Watchdog is needed to verify service identities when performing cross-service re
 - Must handle the registration of services with Consul
 - Must poll a `/watchdog/health` endpoint every `X` seconds and update the `bookmark_watchdog_services` table (not yet created)
 # REST Endpoints
+## Register Service
 ```
 POST /register
 Accepts: TEXT/JSON
@@ -41,7 +42,7 @@ Sample Response:
 		"success": false
 }
 ```
-
+## Service Exists
 ```
 POST /service-exists
 Accepts: TEXT/JSON
