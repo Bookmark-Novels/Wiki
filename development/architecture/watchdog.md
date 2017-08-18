@@ -10,7 +10,7 @@ Watchdog is a Python library for Bookmark that handles service registration and 
 | --- | --- | --- | --- | --- |
 | `Watchdog(service_name, consul_token)` | Instantiates a new Watchdog object instance. | `Watchdog` object. | N/A |
 | `Watchdog#register_service(service_id, address=None, checks=[<string>])` | Registers a service with Consul given a service name. | `True` or `False` depending on success. | `AlreadyRegisteredError`|
-| `Watchdog#service_exists(service_id) | Checks whether or not a service exists in the Consul catalog. | `True` or `False` depending on whether or not a service with the given ID exists. | N/A |
+| `Watchdog#service_exists(service_id)` | Checks whether or not a service exists in the Consul catalog. | `True` or `False` depending on whether or not a service with the given ID exists. | N/A |
 
 It is important to know that many services may be registered under the same name so services will need to provide a unique service ID. This is typically generated via UUID4.
 
