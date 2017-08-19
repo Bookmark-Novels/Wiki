@@ -5,3 +5,6 @@ Bookmark uses Consul for all configuration needs. By default, services will have
 **Developer Consul:** https://consul.dev.bookmark.services
 
 **Gatekeeper Read-Only Consul:** https://gatekeeper.consul.dev.bookmark.services
+
+# Accessing Consul from Services
+In order to access Consul (and configuration values) through `Bookmark-Config` you will need a service token. You can obtain one by provisioning a Consul token from the developer portal.
