@@ -85,4 +85,6 @@ Sample Response:
 | `Watchdog#register_service(service_id)` | Registers a service with Watchdog given a service ID. | `True` or `False` depending on success. | `AlreadyRegisteredError`|
 | `Watchdog#service_exists(service_id)` | Checks whether or not a service exists in Watchdog and is available. | `True` or `False` depending on whether or not a service with the given ID exists and is available. | N/A |
 
-Services will be required to provide a Watchdog token before use. Watchdog tokens can be provisioned in the developer portal (actual button tba) and are stored inside the MySQL table `bookmark_watchdog_tokens` (also tba).
+Services will be required to provide a Watchdog token before use. Watchdog tokens can be provisioned in the developer portal (actual button tba) and are stored inside the MySQL table `bookmark_watchdog_tokens` (also tba). The Watchdog service URL is `https://watchdog.dev.bookmark.services` and `https://watchdog.bookmark.services`.
+# Health Checks
+Health checks are to be performed by watchdog periodically. Watchdog should query a `/health/health` endpoint. This endpoint should return status 200 if a service is alive. The response body will be ignored.
