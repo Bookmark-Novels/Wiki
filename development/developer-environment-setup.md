@@ -45,9 +45,7 @@ vagrant plugin install vagrant-hostmanager
 Different services will have different setups for Host Manager so you should read the "Usage" section as that is the most important part.
 
 # 5. Obtaining an Application Token
-**This is not possible yet because provisioning application tokens has not been setup.**
-
-Application tokens are what allows your service to be a service. In order to obtain one, you will need to go to the developer portal and clicking `Provision Resources -> Create Application Token`.
+Application tokens are what allows your service to be a service. In order to obtain one, you will need to go to the developer portal and clicking `Provision Resources -> Create Consul Token`.
 
 You will be presented with a prompt asking you for the name of your service. Fill it in and click `Continue` and you should see your application token. Note that this token can only be shown once so if you lose it you will need to generate another token. Application tokens are automatically generated and are bound to the service specified so don't make a typo!
 # Arch -> Ubuntu Cheatsheet
