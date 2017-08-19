@@ -1,5 +1,7 @@
 <!-- TITLE: Development Setup Guide (Old) -->
 
+**THIS PAGE IS OUTDATED AND SHOULD NOT BE USED!**
+
 This guide is for the current Gatekeeper and will be deprecated as soon as Gatekeeper is moved to use the new Bookmark infrastructure and Vagrant.
 # Installing Dependencies
 - Python 3 (3.4 preferred)
