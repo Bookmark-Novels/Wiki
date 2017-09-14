@@ -9,3 +9,5 @@ You can compile frontend resources by opening two more terminal windows. In the 
 **DO NOT RUN THE FRONTEND COMPILE COMMANDS INSIDE YOUR VAGRANT BOX UNLESS YOU LIKE WAITING!**
 
 Gatekeeper may be accessed at https://auth.dev.bookmarknovels.com.
+
+If you receive an NGINX welcome landing page then run `nginx -s reload` and then try again.
