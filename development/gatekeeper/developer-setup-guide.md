@@ -1,5 +1,14 @@
 <!-- TITLE: Developer Setup Guide -->
 
+# Prerequisites
+- NodeJS
+- Ruby
+- SASS Ruby Gem
+- Everything in `package.json`
+- Python 3.4
+- Everything in `requirements.txt`
+# Setup Steps
+
 First you need to edit `conf/overrides.example.json` and fill in your own overrides.
 
 Affter that all you need to do is type `vagrant plugin install vagrant-hostmanager && vagrant up && vagrant hostmanager`. After that SSH into the box using `vagrant ssh` and export a Consul token by typing `export CONSUL_TOKEN="xxx"`. After that start Gatekeeper by running `cd /vagrant && python3 app.py`. 
