@@ -9,9 +9,9 @@
 - Everything in `requirements.txt`
 # Setup Steps
 
-First you need to edit `conf/overrides.example.json` and fill in your own overrides.
+First you need to edit `conf/overrides.example.json` and fill in your own overrides. Rename this to overwrite `conf/overrides.json`.
 
-Affter that all you need to do is type `vagrant plugin install vagrant-hostmanager && vagrant up && vagrant hostmanager`. After that SSH into the box using `vagrant ssh` and export a Consul token by typing `export CONSUL_TOKEN="xxx"`. After that start Gatekeeper by running `cd /vagrant && python3 app.py`. 
+After that all you need to do is type `vagrant plugin install vagrant-hostmanager && vagrant up && vagrant hostmanager`. After that SSH into the box using `vagrant ssh` and export a Consul token by typing `export CONSUL_TOKEN="xxx"`. After that start Gatekeeper by running `cd /vagrant && python3 app.py`. 
 
 You can compile frontend resources by opening two more terminal windows. In the first window run `grunt watch` and in the second one run `grunt`. **You should run these two commands in this order otherwise frontend resources will not be compiled at first.**
 
