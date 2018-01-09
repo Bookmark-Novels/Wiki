@@ -19,4 +19,4 @@ You can compile frontend resources by opening two more terminal windows. In the 
 
 Gatekeeper may be accessed at https://auth.dev.bookmarknovels.com.
 
-If you receive an NGINX welcome landing page then run `nginx -s reload` and then try again.
+If you receive an NGINX welcome landing page then run `nginx -s reload` from within your vagrant box and then try again.
