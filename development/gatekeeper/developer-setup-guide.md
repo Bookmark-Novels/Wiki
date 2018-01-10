@@ -1,10 +1,10 @@
 <!-- TITLE: Developer Setup Guide -->
 
 # Prerequisites
-- NodeJS
+- NodeJS (assuming nvm...`nvm use 8.9.4`)
 - Ruby
-- SASS Ruby Gem
-- Everything in `package.json`
+- SASS Ruby Gem (`gem install sass`)
+- Everything in `package.json` (use `npm install` to do it all at once)
 # Setup Steps
 
 First you need to edit `conf/overrides.example.json` and fill in your own overrides. Rename this to overwrite `conf/overrides.json`.
