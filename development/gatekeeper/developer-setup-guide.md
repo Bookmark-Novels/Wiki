@@ -1,4 +1,4 @@
-<!-- TITLE: Developer Setup Guide -->
+<!-- TITLE: Gatekeeper Developer Setup Guide -->
 
 # Prerequisites
 - NodeJS (assuming nvm...`nvm use 8.9.4`)
