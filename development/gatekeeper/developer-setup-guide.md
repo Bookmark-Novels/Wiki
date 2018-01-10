@@ -5,8 +5,6 @@
 - Ruby
 - SASS Ruby Gem
 - Everything in `package.json`
-- Python 3.4
-- Everything in `requirements.txt`
 # Setup Steps
 
 First you need to edit `conf/overrides.example.json` and fill in your own overrides. Rename this to overwrite `conf/overrides.json`.
